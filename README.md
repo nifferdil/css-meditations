@@ -1,3 +1,3 @@
 # css-meditations
-CSS animations featuring nature
-Animations work in Chrome browser.
+CSS animations featuring nature.
+ Animations work in Chrome browser.
