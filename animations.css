@@ -1,0 +1,39 @@
+  /*Leaf animation
+________________________________________________*/
+.leaf {
+	-webkit-animation: leafMove 8s 2s linear forwards;
+}
+
+@-webkit-keyframes leafMove {
+	10% { -webkit-transform: translate(-5%, -45%) rotateZ(-10deg);}
+	20% { -webkit-transform: translate(-75%, -85%) rotateZ(30deg);}
+  50% { -webkit-transform: translate(-200px, 80px) rotateX(25deg) rotateZ(80deg);}
+  100% { -webkit-transform: translate(-150px, 330px) rotateX(-25deg) rotateZ(-90deg);}
+}
+
+/*Sunset animations
+________________________________________________*/
+
+.circle {
+	-webkit-animation: settingSun 6s 1s forwards,
+                     sunMove 7s forwards;
+}
+
+.sunset {
+	-webkit-animation: settingSky 12s linear forwards;
+}
+
+@-webkit-keyframes settingSun {
+    from {background-color: #FFCC00;}
+    to {background-color: #FF6600;}
+}
+  
+@-webkit-keyframes settingSky {  
+    20% {background-image: linear-gradient(lightblue, pink);}
+    100% {background-image: linear-gradient(darkblue, hotpink);}
+}
+
+@-webkit-keyframes sunMove {
+ 100% { -webkit-transform: translate(650px,225px);
+        visibility: hidden; 
+} 

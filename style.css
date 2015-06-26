@@ -1,0 +1,111 @@
+body {
+	padding-top: 70px;
+	background: rgba(240,252,255,.8);
+}
+.wrap {
+	margin: 0 auto;
+	padding: 110px 0;
+	width: 85%;
+	background: #F0FCFF;
+	box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+
+.wrap2 {
+	margin: 0 auto;
+	padding: 110px 0;
+	width: 85%;
+  height: 430px;
+	background: white;
+	box-shadow: 0 0 20px rgba(0,0,0,.5);
+  overflow: hidden;
+}
+
+.box {
+	margin: auto;
+	width: 150px;
+	background: url('transparentrslogo.png') no-repeat 0 0;
+	background-size: 150px;
+}
+
+.box2 {
+	margin: auto;
+	width: 150px;
+	background-size: 150px;
+  overflow: hidden;
+}
+
+.logo {
+	display: block;
+	width: 100%;
+	transition: 1s ease-in-out;
+}
+
+.logo2 {
+  display: block;
+	width: 100%;
+}
+
+.wrap:hover .logo {
+	-webkit-transform: scale(1.5) rotate(360deg) translateX(50%);
+	-moz-transform: scale(1.5) rotate(360deg) translateX(50%);
+	-ms-transform: scale(1.5) rotate(360deg) translateX(50%);
+	-o-transform: scale(1.5) rotate(360deg) translateX(50%);
+	transform: scale(1.5) rotate(360deg) translateX(50%);
+}
+
+.wrap:hover .rotate{
+	-webkit-transform: rotate(40deg);
+  -moz-transform: rotate(40eg);
+  -ms-transform: rotate(40deg); 
+  -webkit-transform: rotate(40deg);
+  -o-transform: rotate(40deg);
+  transform: rotate(40deg);
+}
+
+.wrap:hover .scale {
+	-webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -ms-transform: scale(2); 
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(2);
+}
+
+.wrap:hover .skew {
+    -ms-transform: skew(20deg, 10deg);
+    -webkit-transform: skew(20deg, 10deg);
+    transform: skew(20deg, 10deg);
+}
+
+.sunset  {
+  background-image: linear-gradient(lightblue, pink);
+  height: 100%;
+  overflow: hidden;
+} 
+ 
+.circle {
+  position: relative;
+	width: 120px;
+	height: 120px;
+	background: #FFCC00;
+	-webkit-box-shadow: 0px 0px 40px #FFDC3B;
+  left: 15%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.leaf {
+	width: 40px;
+  height: 50px;
+  top: 37.3%;
+	left: 46.2%;
+	position: absolute;;
+}
+
+.tree {
+  display: block;
+  position: absolute;
+  height: 450px;
+  width: 150px;
+}
